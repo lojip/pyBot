@@ -213,7 +213,7 @@ logging.basicConfig(
 # Основная функция для запуска бота
 def main() -> None:
     # Токен вашего бота
-    token = '7313879135:AAFjjP1BHQy4F9euarapRopFTuj5AM1jQJU'
+    token = '8049879839:AAEHvaiFcESu5137D7u2dMdCNsHoWoR5HwY'
     application = Application.builder().token(token).build()
 
     application.add_handler(CommandHandler("start", start))
